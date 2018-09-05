@@ -20,7 +20,7 @@
       width: 100%;
     }
     .container{
-      padding-top: 9%;
+      padding-top: 6%;
     }
     </style>
 </head>
