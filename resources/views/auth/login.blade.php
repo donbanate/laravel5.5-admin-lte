@@ -20,7 +20,7 @@
       width: 100%;
     }
     .container{
-      padding-top: 9%;
+      padding-top: 7%;
     }
     </style>
 </head>
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a href="../../index2.html" class="navbar-brand"><b>PPSI</b> Archive</a>
+          <a href="{{ url('/') }}" class="navbar-brand"><b>PPSI</b> Archive</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="glyphicon glyphicon-menu-hamburger"></i>
           </button>
