@@ -3,18 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link  href="{{ url('/storage/images/logo.png') }}" rel="icon">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('/storage/styles/header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{url('/storage/scripts/datatable/dataTables.min.css')}}"/>
- 
-  
 </head>
 <body class="hold-transition skin-blue-light sidebar-mini">
 <div id="wrapper">
@@ -39,20 +37,19 @@
 
     <!-- Main content -->
     <section class="content">
-        @yield('content')
+      @yield('content')
         
     </section>
-    </div>
+    
+</div>
+<!--Footer -->
+@include('layouts.footer')
 </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
-<script
-  src="{{url('/storage/scripts/datatable/jquery-3.3.1.js')}}"></script>
-  <script type="text/javascript" src="{{url('/storage/scripts/datatable/dataTable.min.js')}}"></script>
-<script>
-  $(document).ready( function () {
-    $('#table_id').DataTable();
-} );
-</script>
+{{-- Data Table Scripts --}}
+<script src="{{url('/storage/scripts/datatable/jquery-3.3.1.js')}}"></script>
+<script src="{{url('/storage/scripts/datatable/dataTable.min.js')}}"></script>
+<script src="{{url('/storage/scripts/datatable/dataTable.trigger.js')}}"></script>

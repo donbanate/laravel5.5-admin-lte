@@ -1,29 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="row">
-          <div class="col-md-3">
-                <div class="box box-solid">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Actions</h3>
-                            
-                            <div class="box-tools">
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="glyphicon glyphicon-option-horizontal"></i>
-                            </button>
-                            </div>
-                        </div>
-                        <div class="box-body no-padding" style="">
-                            <ul class="nav nav-pills nav-stacked">
-                            <li class="active"><a href="#"><i class="fa fa-plus-circle"></i>Create</a></li>
-                            <li><a href="#"><i class="fa fa-list-alt"></i>List of Users</a></li>
-                            <li><a href="#"><i class="fa fa-hourglass-o"></i>Inactive Users</a></li>
-                            
-                        </ul>
-                        </div>
-                        <div class="box-footer"></div>
-                        <!-- /.box-body -->
-                </div>
-          </div>
+    @include('layouts.createMenu')
+
           <!-- /.col -->
           <div class="col-md-9">
                 <div class="box box-primary">
@@ -102,5 +81,4 @@
                     </div>
         </div>
         <!-- /.row -->
-
 @endsection

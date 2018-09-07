@@ -1,22 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-       @include('layouts.contentMenu')
+       @include('layouts.createMenu')
           <!-- /.col -->
           <div class="col-md-9">
-            <div class="box box-primary">
+            <div class="box box-default">
                 <div class="box-header with-border">
-                  <h3 class="box-title"><i class="fa fa-folder-open-o"></i> MY FILES</h3>
+                  <h3 class="box-title">USER LISTS</h3>
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
                 <div class="box-body" style="max-width: 800px">
-                            <table id="table_id" class="table table-striped table-hover">
+                            <table id="table_id" class="table table-striped">
                                     <thead>
                                         <tr>
-                                                <th>One</th>
-                                                <th>Two</th>
-                                                <th>Three</th>
+                                                <th>Firstname</th>
+                                                <th>Middlename</th>
+                                                <th>Lastname</th>
                                         </tr>
                                     </thead>
                             <tbody>

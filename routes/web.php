@@ -35,3 +35,26 @@ Route::get('/view_files', function () {
     return view('view_files');
 });
 
+Route::get('/user_lists', function () {
+    return view('user_lists');
+});
+
+Route::get('/inactive_users', function () {
+    return view('inactive_users');
+});
+
+Route::get('/archives', function () {
+    return view('archives');
+});
+
+Route::get('/completed', function () {
+    return view('completed');
+});
+
+Route::get('/passwords', function () {
+    return view('passwords');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});

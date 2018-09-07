@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-       @include('layouts.contentMenu')
+       @include('layouts.archivesMenu')
           <!-- /.col -->
           <div class="col-md-9">
             <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title"><i class="fa fa-folder-open-o"></i> MY FILES</h3>
+                  <h3 class="box-title"><i class="fa fa-folder-open-o"></i> Projects</h3>
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
