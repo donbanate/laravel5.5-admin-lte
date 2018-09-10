@@ -4,7 +4,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="{{url('storage/images/logo.png')}}" class="img-thumbnail" alt="User Image">
+          <img src="{{url('img/images/logo.png')}}" class="img-thumbnail" alt="User Image">
         </div>
         <div class="pull-left info" style="padding-top:1rem;">
           {{-- <p class="blockquote" style="font-size:2rem; padding-top:1rem;">PPSI</p> --}}
@@ -34,4 +34,4 @@
     </section>
     <!-- /.sidglyphicon glyphicon-->
   </aside>
-  <script src="{{url('/storage/scripts/submenu/sidebarMenu.js')}}"></script>
+  <script src="{{url('/js/scripts/submenu/sidebarMenu.js')}}"></script>

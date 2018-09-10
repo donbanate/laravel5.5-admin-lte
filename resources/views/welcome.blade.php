@@ -36,7 +36,7 @@
   <!-- /.lockscreen-item -->
 
   <div class="text-center">
-    <a href="{{ route('login') }}"><img id="login-icon" src="{{url('/storage/images/login.png')}}" data-toggle="tooltip" title="Click to login" data-placement="bottom" alt="login"></a>
+    <a href="{{ route('login') }}"><img id="login-icon" src="{{url('/img/images/login.png')}}" data-toggle="tooltip" title="Click to login" data-placement="bottom" alt="login"></a>
   </div>
   <div class="lockscreen-footer text-center">
       <strong><a  href="http://pierreandpaulsolinc.com">PPS Inc.</a> &copy; <?php echo date('Y'); ?></strong>
@@ -45,5 +45,5 @@
 <!-- /.center -->
 </body>
 <script src="{{asset('js/app.js')}}"></script>
-<script src="{{url('/storage/scripts/scripts.js')}}"></script>
+<script src="{{url('/js/scripts/scripts.js')}}"></script>
 </html>

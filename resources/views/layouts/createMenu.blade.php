@@ -21,4 +21,4 @@
             <!-- /.box-body -->
     </div>
 </div>
-<script src="{{url('/storage/scripts/submenu/createMenu.js')}}"></script>
+<script src="{{url('/js/scripts/submenu/createMenu.js')}}"></script>

@@ -20,4 +20,4 @@
               </div>
         </div>
 
-<script src="{{url('/storage/scripts/submenu/archivesMenu.js')}}"></script>        
+<script src="{{url('/js/scripts/submenu/archivesMenu.js')}}"></script>        

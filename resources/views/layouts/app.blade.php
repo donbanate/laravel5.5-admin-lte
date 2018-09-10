@@ -8,11 +8,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link  href="{{ url('/storage/images/logo.png') }}" rel="icon">
+    <link  href="{{ url('/img/images/logo.png') }}" rel="icon">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('/storage/styles/header.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{url('/storage/scripts/datatable/dataTables.min.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('/css/styles/header.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{url('/js/scripts/datatable/dataTables.min.css')}}"/>
 </head>
 <body class="hold-transition skin-blue-light sidebar-mini">
 <div id="wrapper">
@@ -50,6 +50,6 @@
 </body>
 </html>
 {{-- Data Table Scripts --}}
-<script src="{{url('/storage/scripts/datatable/jquery-3.3.1.js')}}"></script>
-<script src="{{url('/storage/scripts/datatable/dataTable.min.js')}}"></script>
-<script src="{{url('/storage/scripts/datatable/dataTable.trigger.js')}}"></script>
+<script src="{{url('/js/scripts/datatable/jquery-3.3.1.js')}}"></script>
+<script src="{{url('/js/scripts/datatable/dataTable.min.js')}}"></script>
+<script src="{{url('/js/scripts/datatable/dataTable.trigger.js')}}"></script>

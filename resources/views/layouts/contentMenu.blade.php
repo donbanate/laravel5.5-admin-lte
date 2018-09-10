@@ -19,4 +19,4 @@
                   <!-- /.box-body -->
           </div>
     </div>
-    <script src="{{url('/storage/scripts/submenu/contentMenu.js')}}"></script>
+    <script src="{{url('/js/scripts/submenu/contentMenu.js')}}"></script>

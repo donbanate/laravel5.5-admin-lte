@@ -30,6 +30,14 @@ function setActive() {
     createMenu.className = "active"; // Sets My Files tab active
     iconColor.style.color = "#1dd1a1";
     textColor.style.color = "#1dd1a1";
+  } else if (
+    location.pathname === "/profile" ||
+    location.pathname === "/passwords"
+  ) {
+    let iconColor = document.getElementById("sidebar-user-settings-color");
+    let textColor = document.getElementById("sidebar-user-settings-color-text");
+    iconColor.style.color = "#FFC312";
+    textColor.style.color = "#FFC312";
   } else {
     console.warn("Submenu: className='active' is not applied");
   }
