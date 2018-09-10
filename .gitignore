@@ -1,6 +1,9 @@
 /node_modules
 /public/hot
-!public/storage/images
+/public/*
+!/public/storage/images
+/public/storage/scripts/*
+!/public/storage/scripts/datatable
 /storage/*.key
 /vendor
 /.idea
