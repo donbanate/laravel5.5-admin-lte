@@ -36,8 +36,8 @@ function setActive() {
   ) {
     let iconColor = document.getElementById("sidebar-user-settings-color");
     let textColor = document.getElementById("sidebar-user-settings-color-text");
-    iconColor.style.color = "#FFC312";
-    textColor.style.color = "#FFC312";
+    iconColor.style.color = "#c56cf0";
+    textColor.style.color = "#c56cf0";
   } else {
     console.warn("Submenu: className='active' is not applied");
   }

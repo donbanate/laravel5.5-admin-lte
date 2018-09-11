@@ -31,14 +31,14 @@
           </li>
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="{{url('js/images/user.jpg')}}" class="user-image" alt="User Image">
+              <img src="{{url('img/images/user.jpg')}}" class="user-image" alt="User Image">
               {{-- <span class="hidden-xs">{{ Auth::user()->name }}</span> --}}
             </a>
             
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header" id="user-info-head">
-                <img src="{{url('js/images/user.jpg')}}" class="img-circle" alt="User Image">
+                <img src="{{url('img/images/user.jpg')}}" class="img-circle" alt="User Image">
                 <p>
                     Some name
                     and position here
@@ -47,7 +47,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="profile" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
                     <form id="logout-form" action="{{ route('logout') }}" method="POST">
